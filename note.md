@@ -14,4 +14,4 @@ Its a website for all the brogramer where they can comanicate with each outher s
 
 3.[Bookmark](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) .
 
-its some fount stile that u can use it it MD like to make the fount boold italic ,order list ,add link, images etc .
+its some fount stile that u can use it it MD like to make the fount **bold** italic ,order list ,add link, images etc .
