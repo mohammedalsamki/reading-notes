@@ -4,11 +4,13 @@ By running the git remote command, you can view the short names, such as “orig
 
 ## We can do alot of things with git command to make our work easiest like :
 
+
 1- Seeing Your Remotes.
 2- Adding Remotes.
 3- Fetching.
 4- Pushing.
 5- Renaming/Removing Remotes. 
+
 
 some of the comands that we use it :
 
