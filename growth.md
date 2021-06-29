@@ -1,5 +1,5 @@
 # Growth Mindset
-
+.
 Hi i am mohammed alsamaki
 I am glad to be one of you all :) 
 i am joining her coz i love programing and i want to improve my skills with u 
