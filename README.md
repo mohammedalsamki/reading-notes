@@ -8,3 +8,4 @@ markdown | [go to markdown](https://mohammedalsamki.github.io/reading-notes/mark
 growth | [go to grouth](https://mohammedalsamki.github.io/reading-notes/growth)
 git | [go to git](https://mohammedalsamki.github.io/reading-notes/git)
 HTML | [go to html](https://mohammedalsamki.github.io/reading-notes/html)
+Java | [go to java](https://mohammedalsamki.github.io/reading-notes/java)
