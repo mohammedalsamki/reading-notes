@@ -10,3 +10,5 @@ git | [go to git](https://mohammedalsamki.github.io/reading-notes/git)
 HTML | [go to html](https://mohammedalsamki.github.io/reading-notes/html)
 Java | [go to java](https://mohammedalsamki.github.io/reading-notes/java)
 anythnig | link 
+loobs | [go to loobs](https://mohammedalsamki.github.io/reading-notes/loobs)
+anythnig | link 
