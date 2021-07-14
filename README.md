@@ -1,6 +1,6 @@
-# About me 
+# Code 102 Reading Notes 
 
-Hi iam mohammed alsamki and i am glad to be here with u to leant new stuff about wep develpmint and this some of my work here :
+Hi iam mohammed alsamki and i am glad to be here with u to leant new stuff about wep develpmint and this some of what i had larned here :
 
 name  | link | 
 ------------ | ------------- 
