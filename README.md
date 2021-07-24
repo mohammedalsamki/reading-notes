@@ -17,11 +17,11 @@ ProgrammingwithJavaScript |  [go to ProgrammingwithJavaScript](https://mohammeda
 # Code 201 Reading Notes 
 name  | link | 
 ------------ | ------------- 
-Read 01 | [Read 01](https://mohammedalsamki.github.io/reading-notes/markdown)
-Read 02 | [Read 02](https://mohammedalsamki.github.io/reading-notes/growth)
-Read 03 | [Read 03](https://mohammedalsamki.github.io/reading-notes/git)
-Read 04 | [Read 04](https://mohammedalsamki.github.io/reading-notes/html)
-Read 05 | [Read 05](https://mohammedalsamki.github.io/reading-notes/java)
-Read 06 | [Read 06](https://mohammedalsamki.github.io/reading-notes/loobs)
-Read 07 | [Read 07](https://mohammedalsamki.github.io/reading-notes/stylewithcss)
-Read 08 | [Read 08](https://mohammedalsamki.github.io/reading-notes/ProgrammingwithJavaScript)
+Read 01 | [Read 01](https:)
+Read 02 | [Read 02](https:)
+Read 03 | [Read 03](https:)
+Read 04 | [Read 04](https:)
+Read 05 | [Read 05](https:)
+Read 06 | [Read 06](https:)
+Read 07 | [Read 07](https:)
+Read 08 | [Read 08](https:)
