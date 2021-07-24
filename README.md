@@ -14,3 +14,14 @@ stylewithcss |  [go to stylewithcss](https://mohammedalsamki.github.io/reading-n
 ProgrammingwithJavaScript |  [go to ProgrammingwithJavaScript](https://mohammedalsamki.github.io/reading-notes/ProgrammingwithJavaScript)
 
 
+# Code 201 Reading Notes 
+name  | link | 
+------------ | ------------- 
+Read 01 | [Read 01](https://mohammedalsamki.github.io/reading-notes/markdown)
+Read 02 | [Read 02](https://mohammedalsamki.github.io/reading-notes/growth)
+Read 03 | [Read 03](https://mohammedalsamki.github.io/reading-notes/git)
+Read 04 | [Read 04](https://mohammedalsamki.github.io/reading-notes/html)
+Read 05 | [Read 05](https://mohammedalsamki.github.io/reading-notes/java)
+Read 06 | [Read 06](https://mohammedalsamki.github.io/reading-notes/loobs)
+Read 07 | [Read 07](https://mohammedalsamki.github.io/reading-notes/stylewithcss)
+Read 08 | [Read 08](https://mohammedalsamki.github.io/reading-notes/ProgrammingwithJavaScript)
