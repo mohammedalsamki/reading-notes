@@ -12,9 +12,9 @@ We will spend the first chapter looking at how HTML is used to create web pages.
 ## EXAMPLES OF JAVASCRIPT IN THE BROWSER 
 
 Being able to change the content of an HTML page while it is loaded in the browser is very powerful. The examples below rely on the ability to:
-1- Access the content of the page
-2- Modify the content of the page
-3- Program rules or instructions the browser can follow
-4- React to events triggered by the user or browser
+* Access the content of the page
+* Modify the content of the page
+* Program rules or instructions the browser can follow
+* React to events triggered by the user or browser
 
 ![java](java.PNG)
