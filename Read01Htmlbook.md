@@ -17,4 +17,4 @@ Being able to change the content of an HTML page while it is loaded in the brows
 3- Program rules or instructions the browser can follow
 4- React to events triggered by the user or browser
 
-![java](java.png)
+![java](java.PNG)
