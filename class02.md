@@ -53,9 +53,9 @@ property sets the choice of font, and the value arial specifies Arial as the pre
 #  From the Duckett JS book:
 
   ## Chapter 2: “Basic JavaScript Instructions” (pp.53-84)
-![sumerize ](Capture.png)
+![sumerize ](Capture.PNG)
   
-  ![secnd chapter sumer](new.png)
+  ![secnd chapter sumer](new.PNG)
 
   
   
