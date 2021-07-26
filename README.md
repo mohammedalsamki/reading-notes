@@ -20,7 +20,7 @@ name  | link |
 ------------ | ------------- 
 Read 01 | [class 01](https://mohammedalsamki.github.io/reading-notes/Read01Htmlbook)
 Read 02 | [class02](https://mohammedalsamki.github.io/reading-notes/class02)
-Read 03 | [Read 03](https:)
+Read 03 | [Read 03](https://mohammedalsamki.github.io/reading-notes/class03)
 Read 04 | [Read 04](https:)
 Read 05 | [Read 05](https:)
 Read 06 | [Read 06](https:)
