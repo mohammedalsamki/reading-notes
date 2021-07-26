@@ -29,5 +29,5 @@ when they have visited a link
 
 # From the Duckett JS book:
 
-!{java sum }(03.PNG)
-!{java sum }(031.PNG)
+![java sum ](03.PNG)
+![java sum ](031.PNG)
