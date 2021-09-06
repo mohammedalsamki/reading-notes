@@ -40,7 +40,7 @@ Read 15 | [Read 15](https:)
 name  | link | 
 ------------ | ------------- 
 Read 01 | [class 01](https://mohammedalsamki.github.io/reading-notes/code301/read01)
-Read 02 | [class02](https:)
+Read 02 | [class02](https://mohammedalsamki.github.io/reading-notes/code301/read02)
 Read 03 | [Read 03](https:)
 Read 04 | [Read 04](https:)
 Read 05 | [Read 05](https:)
