@@ -44,7 +44,7 @@ Read 02 | [class02](https://mohammedalsamki.github.io/reading-notes/code301/read
 Read 03 | [Read 03](https://mohammedalsamki.github.io/reading-notes/code301/read03)
 Read 04 | [Read 04](https://mohammedalsamki.github.io/reading-notes/code301/read04)
 Read 05 | [Read 05](https://mohammedalsamki.github.io/reading-notes/code301/read05)
-Read 06 | [Read 06](https:)
+Read 06 | [Read 06](https://mohammedalsamki.github.io/reading-notes/code301/read06)
 Read 07 | [Read 07](https:)
 Read 08 | [Read 08](https:)
 Read 09 | [Read 09](https:)
