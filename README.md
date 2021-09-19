@@ -49,7 +49,7 @@ Read 07 | [Read 07](https://mohammedalsamki.github.io/reading-notes/code301/read
 Read 08 | [Read 08](https://mohammedalsamki.github.io/reading-notes/code301/read08)
 Read 09 | [Read 09](https://mohammedalsamki.github.io/reading-notes/code301/read09)
 Read 10 | [Read 10](https://mohammedalsamki.github.io/reading-notes/code301/read10)
-Read 11 | [Read 11](https:)
+Read 11 | [Read 11](https://mohammedalsamki.github.io/reading-notes/code301/read11)
 Read 12 | [Read 12](https:)
 Read 13 | [Read 13](https:)
 Read 14 | [Read 14](https:)
