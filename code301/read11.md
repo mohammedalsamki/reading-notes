@@ -1,4 +1,5 @@
-Model()
+# Model()
+
 Parameters
 doc «Object» values for initial set
 optional «[fields]» object containing the fields that were selected in the query which returned this document. You do not need to set this parameter to ensure Mongoose handles your query projection.
