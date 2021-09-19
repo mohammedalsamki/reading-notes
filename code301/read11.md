@@ -1,99 +1,144 @@
-# <BrowserRouter>
-A <Router> that uses the HTML5 history API (pushState, replaceState and the popstate event) to keep your UI in sync with the URL.<BrowserRouter
-  basename={optionalString}
-  forceRefresh={optionalBool}
-  getUserConfirmation={optionalFunc}
-  keyLength={optionalNumber}
->
-  <App />
-</BrowserRouter>
-basename: string
-The base URL for all locations. If your app is served from a sub-directory on your server, you’ll want to set this to the sub-directory. A properly formatted basename should have a leading slash, but no trailing slash.<BrowserRouter basename="/calendar">
-    <Link to="/today"/> // renders <a href="/calendar/today">
-    <Link to="/tomorrow"/> // renders <a href="/calendar/tomorrow">
-    ...
-</BrowserRouter>
-getUserConfirmation: func
-A function to use to confirm navigation. Defaults to using window.confirm.<BrowserRouter
-  getUserConfirmation={(message, callback) => {
-    // this is the default behavior
-    const allowTransition = window.confirm(message);
-    callback(allowTransition);
-  }}
-/>
-forceRefresh: bool
-If true the router will use full page refreshes on page navigation. You may want to use this to imitate the way a traditional server-rendered app would work with full page refreshes between page navigation.<BrowserRouter forceRefresh={true} />
-keyLength: number
-The length of location.key. Defaults to 6.<BrowserRouter keyLength={12} />
-children: node
-The child elements to render.Note: On React < 16 you must use a single child element since a render method cannot return more than one element. If you need more than one element, you might try wrapping them in an extra <div>.
-<HashRouter>
-A <Router> that uses the hash portion of the URL (i.e. window.location.hash) to keep your UI in sync with the URL.IMPORTANT NOTE: Hash history does not support location.key or location.state. In previous versions we attempted to shim the behavior but there were edge-cases we couldn’t solve. Any code or plugin that needs this behavior won’t work. As this technique is only intended to support legacy browsers, we encourage you to configure your server to work with <BrowserHistory> instead.<HashRouter
-  basename={optionalString}
-  getUserConfirmation={optionalFunc}
-  hashType={optionalString}
->
-  <App />
-</HashRouter>
-basename: string
-The base URL for all locations. A properly formatted basename should have a leading slash, but no trailing slash.<HashRouter basename="/calendar"/>
-<Link to="/today"/> // renders <a href="#/calendar/today">
-getUserConfirmation: func
-A function to use to confirm navigation. Defaults to using window.confirm.<HashRouter
-  getUserConfirmation={(message, callback) => {
-    // this is the default behavior
-    const allowTransition = window.confirm(message);
-    callback(allowTransition);
-  }}
-/>
-hashType: string
-The type of encoding to use for window.location.hash. Available values are:
-"slash" - Creates hashes like #/ and #/sunshine/lollipops
-"noslash" - Creates hashes like # and #sunshine/lollipops
-"hashbang" - Creates “ajax crawlable” (deprecated by Google) hashes like #!/ and #!/sunshine/lollipops
-Defaults to "slash".
-children: node
-A single child element to render.
-<Link>
-Provides declarative, accessible navigation around your application.<Link to="/about">About</Link>
-to: string
-A string representation of the Link location, created by concatenating the location’s pathname, search, and hash properties.<Link to="/courses?sort=name" />
-to: object
-An object that can have any of the following properties:
-pathname: A string representing the path to link to.
-search: A string representation of query parameters.
-hash: A hash to put in the URL, e.g. #a-hash.
-state: State to persist to the location.
-<Link
-  to={{
-    pathname: "/courses",
-    search: "?sort=name",
-    hash: "#the-hash",
-    state: { fromDashboard: true }
-  }}
-/>
-to: function
-A function to which current location is passed as an argument and which should return location representation as a string or as an object<Link to={location => ({ ...location, pathname: "/courses" })} />
-<Link to={location => `${location.pathname}?sort=name`} />
-replace: bool
-When true, clicking the link will replace the current entry in the history stack instead of adding a new one.<Link to="/courses" replace />
-innerRef: function
-As of React Router 5.1, if you are using React 16 you should not need this prop because we forward the ref to the underlying <a>. Use a normal ref instead.Allows access to the underlying ref of the component.<Link
-  to="/"
-  innerRef={node => {
-    // `node` refers to the mounted DOM element
-    // or null when unmounted
-  }}
-/>
-innerRef: RefObject
-As of React Router 5.1, if you are using React 16 you should not need this prop because we forward the ref to the underlying <a>. Use a normal ref instead.Get the underlying ref of the component using React.createRef.let anchorRef = React.createRef()
+Model()
+Parameters
+doc «Object» values for initial set
+optional «[fields]» object containing the fields that were selected in the query which returned this document. You do not need to set this parameter to ensure Mongoose handles your query projection.
+[skipId=false] «Boolean» optional boolean. If true, mongoose doesn't add an _id field to the document.
+A Model is a class that's your primary tool for interacting with MongoDB. An instance of a Model is called a Document.
 
-<Link to="/" innerRef={anchorRef} />
-component: React.Component
-If you would like utilize your own navigation component, you can simply do so by passing it through the component prop.const FancyLink = React.forwardRef((props, ref) => (
-  <a ref={ref} {...props}>💅 {props.children}</a>
-))
+In Mongoose, the term "Model" refers to subclasses of the mongoose.Model class. You should not use the mongoose.Model class directly. The mongoose.model() and connection.model() functions create subclasses of mongoose.Model as shown below.
 
-<Link to="/" component={FancyLink} />
-others
-You can also pass props you’d like to be on the <a> such as a title, id, className, etc.
+Example:
+// `UserModel` is a "Model", a subclass of `mongoose.Model`.
+const UserModel = mongoose.model('User', new Schema({ name: String }));
+
+// You can use a Model to create new documents using `new`:
+const userDoc = new UserModel({ name: 'Foo' });
+await userDoc.save();
+
+// You also use a model to create queries:
+const userFromDb = await UserModel.findOne({ name: 'Foo' });
+Model.aggregate()
+Parameters
+[pipeline] «Array» aggregation pipeline as an array of objects
+[options] «Object» aggregation options
+[callback] «Function»
+Returns:
+«Aggregate»
+Performs aggregations on the models collection.
+
+If a callback is passed, the aggregate is executed and a Promise is returned. If a callback is not passed, the aggregate itself is returned.
+
+This function triggers the following middleware.
+
+aggregate()
+Example:
+// Find the max balance of all accounts
+const res = await Users.aggregate([
+  { $group: { _id: null, maxBalance: { $max: '$balance' }}},
+  { $project: { _id: 0, maxBalance: 1 }}
+]);
+
+console.log(res); // [ { maxBalance: 98000 } ]
+
+// Or use the aggregation pipeline builder.
+const res = await Users.aggregate().
+  group({ _id: null, maxBalance: { $max: '$balance' } }).
+  project('-id maxBalance').
+  exec();
+console.log(res); // [ { maxBalance: 98 } ]
+NOTE:
+Mongoose does not cast aggregation pipelines to the model's schema because $project and $group operators allow redefining the "shape" of the documents at any stage of the pipeline, which may leave documents in an incompatible format. You can use the mongoose-cast-aggregation plugin to enable minimal casting for aggregation pipelines.
+The documents returned are plain javascript objects, not mongoose documents (since any shape of document can be returned).
+More About Aggregations:
+Mongoose Aggregate
+An Introduction to Mongoose Aggregate
+MongoDB Aggregation docs
+Model.buildBulkWriteOperations()
+Parameters
+options «Object»
+options.skipValidation «Boolean» defaults to false, when set to true, building the write operations will bypass validating the documents.
+@param {[Document]} documents The array of documents to build write operations of
+
+Model.bulkSave()
+Parameters
+documents «[Document]»
+takes an array of documents, gets the changes and inserts/updates documents in the database according to whether or not the document is new, or whether it has changes or not.
+
+bulkSave uses bulkWrite under the hood, so it's mostly useful when dealing with many documents (10K+)
+
+Model.bulkWrite()
+Parameters
+ops «Array»
+[ops.insertOne.document] «Object» The document to insert
+[opts.updateOne.filter] «Object» Update the first document that matches this filter
+[opts.updateOne.update] «Object» An object containing update operators
+[opts.updateOne.upsert=false] «Boolean» If true, insert a doc if none match
+[opts.updateOne.timestamps=true] «Boolean» If false, do not apply timestamps to the operation
+[opts.updateOne.collation] «Object» The MongoDB collation to use
+[opts.updateOne.arrayFilters] «Array» The array filters used in update
+[opts.updateMany.filter] «Object» Update all the documents that match this filter
+[opts.updateMany.update] «Object» An object containing update operators
+[opts.updateMany.upsert=false] «Boolean» If true, insert a doc if no documents match filter
+[opts.updateMany.timestamps=true] «Boolean» If false, do not apply timestamps to the operation
+[opts.updateMany.collation] «Object» The MongoDB collation to use
+[opts.updateMany.arrayFilters] «Array» The array filters used in update
+[opts.deleteOne.filter] «Object» Delete the first document that matches this filter
+[opts.deleteMany.filter] «Object» Delete all documents that match this filter
+[opts.replaceOne.filter] «Object» Replace the first document that matches this filter
+[opts.replaceOne.replacement] «Object» The replacement document
+[opts.replaceOne.upsert=false] «Boolean» If true, insert a doc if no documents match filter
+[options] «Object»
+[options.ordered=true] «Boolean» If true, execute writes in order and stop at the first error. If false, execute writes in parallel and continue until all writes have either succeeded or errored.
+[options.session=null] «ClientSession» The session associated with this bulk write. See transactions docs.
+[options.w=1] «String|number» The write concern. See Query#w() for more information.
+[options.wtimeout=null] «number» The write concern timeout.
+[options.j=true] «Boolean» If false, disable journal acknowledgement
+[options.bypassDocumentValidation=false] «Boolean» If true, disable MongoDB server-side schema validation for all writes in this bulk.
+[options.strict=null] «Boolean» Overwrites the strict option on schema. If false, allows filtering and writing fields not defined in the schema for all writes in this bulk.
+[callback] «Function» callback function(error, bulkWriteOpResult) {}
+Returns:
+«Promise» resolves to a BulkWriteOpResult if the operation succeeds
+Sends multiple insertOne, updateOne, updateMany, replaceOne, deleteOne, and/or deleteMany operations to the MongoDB server in one command. This is faster than sending multiple independent operations (e.g. if you use create()) because with bulkWrite() there is only one round trip to MongoDB.
+
+Mongoose will perform casting on all operations you provide.
+
+This function does not trigger any middleware, neither save(), nor update(). If you need to trigger save() middleware for every document use create() instead.
+
+Example:
+Character.bulkWrite([
+  {
+    insertOne: {
+      document: {
+        name: 'Eddard Stark',
+        title: 'Warden of the North'
+      }
+    }
+  },
+  {
+    updateOne: {
+      filter: { name: 'Eddard Stark' },
+      // If you were using the MongoDB driver directly, you'd need to do
+      // `update: { $set: { title: ... } }` but mongoose adds $set for
+      // you.
+      update: { title: 'Hand of the King' }
+    }
+  },
+  {
+    deleteOne: {
+      {
+        filter: { name: 'Eddard Stark' }
+      }
+    }
+  }
+]).then(res => {
+ // Prints "1 1 1"
+ console.log(res.insertedCount, res.modifiedCount, res.deletedCount);
+});
+The supported operations are:
+
+insertOne
+updateOne
+updateMany
+deleteOne
+deleteMany
+replaceOne
