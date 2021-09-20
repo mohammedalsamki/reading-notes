@@ -51,7 +51,7 @@ Read 09 | [Read 09](https://mohammedalsamki.github.io/reading-notes/code301/read
 Read 10 | [Read 10](https://mohammedalsamki.github.io/reading-notes/code301/read10)
 Read 11 | [Read 11](https://mohammedalsamki.github.io/reading-notes/code301/read11)
 Read 12 | [Read 12](https://mohammedalsamki.github.io/reading-notes/code301/read12)
-Read 13 | [Read 13](https:)
+Read 13 | [Read 13](https://mohammedalsamki.github.io/reading-notes/code301/read13)
 Read 14 | [Read 14](https:)
 Read 15 | [Read 15](https:)
 
