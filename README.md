@@ -61,7 +61,7 @@ Read 15 | [Read 15](https:)
 
 name  | link | 
 ------------ | ------------- 
-Read 01 | [class 01](https:)
+Read 01 | [class 01](https://mohammedalsamki.github.io/reading-notes/401read01.md)
 Read 02 | [class02](https:)
 Read 03 | [Read 03](https:)
 Read 04 | [Read 04](https:)
