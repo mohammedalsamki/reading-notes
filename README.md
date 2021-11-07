@@ -67,7 +67,7 @@ Read 03 | [Read 03](https://mohammedalsamki.github.io/reading-notes/class401read
 Read 04 | [Read 04](https://mohammedalsamki.github.io/reading-notes/401read04.md)
 Read 05 | [Read 05](https://mohammedalsamki.github.io/reading-notes/read40106.md)
 Read 06 | [Read 06](https://mohammedalsamki.github.io/reading-notes/read40106.md)
-Read 07 | [Read 07](https:)
+Read 07 | [Read 07](https://mohammedalsamki.github.io/reading-notes/401class07.md)
 Read 08 | [Read 08](https:)
 Read 09 | [Read 09](https:)
 Read 10 | [Read 10](https:)
