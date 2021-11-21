@@ -32,7 +32,9 @@ Read 11 | [Read 11](https://mohammedalsamki.github.io/reading-notes/class11)
 Read 12 | [Read 12](https://mohammedalsamki.github.io/reading-notes/class12)
 Read 13 | [Read 13](https://mohammedalsamki.github.io/reading-notes/class13)
 Read 14 | [Read 14](https://mohammedalsamki.github.io/reading-notes/class14)
-Read 15 | [Read 15](https:)
+Read 15 | [Read 15](https://mohammedalsamki.github.io/reading-notes/class15)
+Read 16 | [Read 16](https://mohammedalsamki.github.io/reading-notes/class16)
+Read 15 | [Read 17](https://mohammedalsamki.github.io/reading-notes/class17)
 
 
 # Code 301 - Intermediate Software Development
