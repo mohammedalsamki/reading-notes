@@ -80,3 +80,5 @@ Read 15 | [Read 15](https://mohammedalsamki.github.io/reading-notes/401read15)
 Read 16 | [Read 16](https://mohammedalsamki.github.io/reading-notes/401read16)
 Read 17 | [Read 17](https://mohammedalsamki.github.io/reading-notes/401read17)
 Read 18 | [Read 17](https://mohammedalsamki.github.io/reading-notes/401read18)
+Read 26 | [Read 26](https://mohammedalsamki.github.io/reading-notes/read26)
+
