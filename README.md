@@ -58,31 +58,46 @@ Read 15 | [Read 15](https:)
 
 
 
-# CCode 401 - Advanced Software Development
+## Code 401
 
-name  | link | 
------------- | ------------- 
-Read 01 | [class 01](https://mohammedalsamki.github.io/reading-notes/401read01)
-Read 02 | [class02](https://mohammedalsamki.github.io/reading-notes/401read02)
-Read 03 | [Read 03](https://mohammedalsamki.github.io/reading-notes/class401read03)
-Read 04 | [Read 04](https://mohammedalsamki.github.io/reading-notes/401read04)
-Read 05 | [Read 05](https://mohammedalsamki.github.io/reading-notes/read40106)
-Read 06 | [Read 06](https://mohammedalsamki.github.io/reading-notes/read40106)
-Read 07 | [Read 07](https://mohammedalsamki.github.io/reading-notes/401class07)
-Read 08 | [Read 08](https://mohammedalsamki.github.io/reading-notes/401class08)
-Read 09 | [Read 09](https://mohammedalsamki.github.io/reading-notes/class401read09)
-Read 10 | [Read 10](https://mohammedalsamki.github.io/reading-notes/401read10)
-Read 11 | [Read 11](https://mohammedalsamki.github.io/reading-notes/401read11)
-Read 12 | [Read 12](https://mohammedalsamki.github.io/reading-notes/401read12)
-Read 13 | [Read 13](https://mohammedalsamki.github.io/reading-notes/401read13)
-Read 14 | [Read 14](https://mohammedalsamki.github.io/reading-notes/401read14)
-Read 15 | [Read 15](https://mohammedalsamki.github.io/reading-notes/401read15)
-Read 16 | [Read 16](https://mohammedalsamki.github.io/reading-notes/401read16)
-Read 17 | [Read 17](https://mohammedalsamki.github.io/reading-notes/401read17)
-Read 18 | [Read 17](https://mohammedalsamki.github.io/reading-notes/401read18)
-Read 26 | [Read 26](https://mohammedalsamki.github.io/reading-notes/401read26)
-Read 27 | [Read 27](https://mohammedalsamki.github.io/reading-notes/401read27)
-Read 28 | [Read 28](https://mohammedalsamki.github.io/reading-notes/401read28)
+### **`Advanced Software Development`**
 
-
-
+| # | Subject |
+| ---            | :--        |
+| 1 | [Names and Values in Python](Code401/class-01.md)|  
+| 2 | [Testing and Modules](Code401/class-02.md) |  
+| 3 | [FileIO & Exceptions](Code401/class-03.md) |  
+| 4 | [Classes and Objects](Code401/class-04.md) |  
+| 5 | [Linked Lists](Code401/class-05.md) |
+| 6 | [GOG 1-Random Module](Code401/class-06.md)  |
+| 7 | [GOG 2-python Scope](Code401/class-07.md)  |
+| 8 | [GOG 3-List Comprehensions](Code401/class-08.md) |
+| 9 | [GOG 4](Code401/class-09.md)<br> Dunder Methods <br>Statistics - Probability
+| 10 | [Stacks and Queues](Code401/class-10.md) |
+| 11 | [Data Analysis](Code401/class-11.md) |
+| 12 | [Pandas](Code401/class-12.md) |
+| 13 | [Linear Regressions](Code401/class-13.md) |
+| 14 | [Data Visualization](Code401/class-14.md) |
+| 15 | [Stacks & Queues](Code401/class-15.md) |
+| 16 | [Machine Learning Intro](Code401/class-16.md) |
+| 17 | [Web Scraping](Code401/class-17.md) |
+| 18 | [Cryptography](Code401/class-18.md) |
+| 19 | [Automation](Code401/class-19.md) |
+|    | [Project-Week](#) |
+| 26 | [Django](Code401/class-26.md) |
+| 27 | [Django Models & Admin](Code401/class-27.md) |
+| 28 | [Django Forms](Code401/class-28.md) |
+| 29 | [Django Custom User Model](Code401/class-29.md) |
+| 30 | [Hash Tables](Code401/class-30.md) |
+| 31 | [Docker](Code401/class-31.md) |
+| 32 | [DRF Permissions](Code401/class-32.md) |
+| 33 | [Authentication & Production Server](Code401/class-33.md) |
+| 34 | [API Deployment](Code401/class-34.md) |
+| 35 | [Graphs](Code401/class-35.md) |
+| 36 | [DSA REVIEW](Code401/class-36.md) |
+| 37 | [React 1](Code401/class-37.md) |
+| 38 | [React 2](Code401/class-38.md) |
+| 39 | [React 3](Code401/class-39.md) |
+| 40 | [NextJs Deployment](Code401/class-40.md) |
+| 41 | [Pythonisms](Code401/class-41.md) |
+| 42 | [open-source contribution](Code401/class-42.md) 
